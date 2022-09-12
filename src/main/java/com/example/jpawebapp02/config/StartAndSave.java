@@ -21,7 +21,7 @@ public class StartAndSave implements CommandLineRunner {
     public void run(String... args) throws Exception {
         Student std1 = new Student();
         std1.setBorn(LocalDate.now());
-        std1.setName("Anne");
+        std1.setName("Annezz");
         std1.setBornTime(LocalTime.now());
         studentRepository.save(std1);
 
